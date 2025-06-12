@@ -1,0 +1,5 @@
+auth:
+  users:
+    ${NTFY_USER}: ${NTFY_PASSWORD}
+  topics:
+    my-secret-topic: ${NTFY_USER}
